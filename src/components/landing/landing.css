@@ -1,0 +1,48 @@
+body{
+
+    background: linear-gradient(to bottom, black 95%,  green 100%);
+  
+  width: 100%;
+  height: 100vh;
+}
+
+@font-face {
+    font-family: Arapey;
+    src: url("../../fonts/Arapey-Regular.ttf");
+}
+h1{
+    color: white;
+    font-family: Arapey;
+    font-size: 58px;
+    font-weight: 100;
+   
+   
+}
+
+h3{
+    color: white;
+    font-family: Arapey;
+    font-size: 28px;
+    font-weight:100;
+   
+}
+
+#picContainer {
+    margin-top: 15% ;
+    margin-left: 22%;
+}
+
+img{
+    max-width: 100%;
+    backdrop-filter: blur(80px);
+    border-radius: 10px;
+}
+
+#nameTitle{
+    margin-left: 40%;
+}
+
+#title{
+    margin-top:1%;
+    margin-left: 44%;
+}
