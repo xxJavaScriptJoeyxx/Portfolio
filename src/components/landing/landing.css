@@ -46,15 +46,10 @@ h3{
 #picContainer {
     display: flex;
     justify-content: center;
-    margin-top: 120vh;
+    margin-top: 200vh;
     /* margin-bottom: 5vh; */
 }
 
-img{
-    max-width: 100%;
-    backdrop-filter: blur(80px);
-    border-radius: 10px;
-}
 
 
 #joeyTitle{
@@ -171,7 +166,7 @@ flex-wrap:nowrap;
     width: 750px;
 }
 
-#toolTitle {
+#toolTitle, #projectDiv {
     color: white;
     font: Arapey;
     font-size: 48px;
@@ -193,3 +188,32 @@ flex-wrap:nowrap;
     max-width: 100%; /* Ensure images don't exceed their container width */
     height: auto; /* Maintain aspect ratio */
 }
+
+
+.buttonDiv{
+    display:flex;
+    justify-content: center;
+    margin-top:1.5vh;
+
+}
+
+.carouselContainer {
+    text-align: center;
+  }
+  
+  .imageWrapper {
+    position: relative;
+  }
+  
+  /* img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  } */
+  
+  img.active {
+    opacity: 1;
+  }
+

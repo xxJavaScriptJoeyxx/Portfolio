@@ -7,6 +7,9 @@ import Title from "../name/Title"
 import About from "../about/About"
 import Tools from "../tools/Tools"
 import me from "../about/me.jpg"
+import Carousel from "../carousel/Carousel"
+// import {images} from "../carousel/data"
+
 
 const Landing = () => {
     return (
@@ -27,9 +30,20 @@ const Landing = () => {
        
        <div id="aboutDiv"><About /></div>
      
-               <Tools/>
+       <Tools/>
         
+       <div id="carouselDiv">
+        <h2 id="projectDiv">My Projects</h2>
+        <Carousel />
+      </div> 
+
+
       </div>
+
+     
+
+
+    
         </>
     )
 }

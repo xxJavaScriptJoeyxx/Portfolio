@@ -1,0 +1,14 @@
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+}
+
+
+
+
+
