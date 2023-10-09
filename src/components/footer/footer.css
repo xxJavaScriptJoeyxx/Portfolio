@@ -1,0 +1,35 @@
+
+a{
+    color: white;
+    font-family: Arapey;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+  
+    color: white; /* Optional text color */
+
+  }
+  
+  #contactLink {
+    order: 1; /* Place contactLink first on the left */
+    position:absolute;
+ 
+   left:5px;
+    bottom:5px;
+    font-size: 32px;
+  }
+  
+  #resumeLink {
+    order: 2; /* Place resumeLink second on the right */
+    position:absolute;
+ 
+    right:20px;
+     bottom:5px;
+     font-size: 32px;
+  }

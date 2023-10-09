@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../carousel/carousel.css"
+
 
 import hackerOwl from "../carousel/hackerOwl.png"
 import owlPic2 from "../carousel/owlPic2.png"

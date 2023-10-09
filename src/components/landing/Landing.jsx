@@ -8,6 +8,7 @@ import About from "../about/About"
 import Tools from "../tools/Tools"
 import me from "../about/me.jpg"
 import Carousel from "../carousel/Carousel"
+import Footer from "../footer/Footer"
 // import {images} from "../carousel/data"
 
 
@@ -35,15 +36,18 @@ const Landing = () => {
        <div id="carouselDiv">
         <h2 id="projectDiv">My Projects</h2>
         <Carousel />
+
+    
       </div> 
 
-
+      <div id="footerLinks"><Footer /></div>
+   
       </div>
 
      
 
 
-    
+     
         </>
     )
 }
